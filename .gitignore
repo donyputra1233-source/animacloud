@@ -1,0 +1,47 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.*.local
+*.secret.*
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build
+dist/
+build/
+coverage/
+
+# Database
+*.sqlite
+*.db
+*.sql.bak
+
+# Uploads
+uploads/
+temp/
+tmp/
+
+# Docker
+docker/volumes/
+docker/data/
