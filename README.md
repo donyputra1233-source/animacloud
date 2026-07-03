@@ -1,9 +1,9 @@
 # 🔷 ANIMACLOUD-API 🔷
 Animacloud-API adalah REST API untuk informasi Anime dari informasi detail, jadwal tayang serta lain sebagai nya
 
-> Saat ini API ini sedang dalam Perkembangan, mungkin ini agak lama tapi akan segera diselesaikan secepat mungkin 
+> Saat ini API ini sedang dalam Perkembangan, mungkin ini agak lama tapi akan segera diselesaikan secepat mungkin dan juga server ini belum stabil untuk saat ini
 
-Link:
+Link: https://animacloud.serveousercontent.com
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
 ![Express](https://img.shields.io/badge/Express-4.x-blue)
