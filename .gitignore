@@ -45,3 +45,9 @@ tmp/
 # Docker
 docker/volumes/
 docker/data/
+#file
+cache/
+#tester
+test/
+
+
