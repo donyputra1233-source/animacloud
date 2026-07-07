@@ -112,7 +112,6 @@ class AnilistService {
         }));
     }
 
-    // === FORMAT ANIME DETAIL ===
     formatAnimeDetail(data) {
         if (!data) return null;
         return {
