@@ -483,4 +483,5 @@ class AnilistApi {
     }
 }
 
+
 module.exports = new AnilistApi();

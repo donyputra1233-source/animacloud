@@ -40,7 +40,7 @@ Link: https://animacloud.serveousercontent.com
 | version | status | release |
 |:---------:|:--------:|:---------:|
 ![API](https://img.shields.io/badge/api-v1-black)| Avaiable| ![date](https://img.shields.io/badge/release-03%20july%202026-green)|
-![API](https://img.shields.io/badge/api-v2-white)|Coming soon| -|
+![API](https://img.shields.io/badge/api-v2-white)|Release| ![date](https://img.shields.io/badge/release-07%20july%202026-pink)|
 ![API](https://img.shields.io/badge/api-v3-magenta)|Coming soon| -|
 ## Paramenter
 
@@ -114,4 +114,6 @@ Tabel HTTP Status Codes
 | 404 | Not Found - Data tidak ditemukan |
 | 429 | Too Many Requests - Rate limit tercapai |
 | 500 | Internal Server Error - Error server |
+## 📝 Changelog
 
+Lihat [CHANGELOG.md](CHANGELOG.md) untuk riwayat perubahan lengkap.

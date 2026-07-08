@@ -183,13 +183,15 @@ class Anime {
     // === UPSERT (Insert or Update) ===
     static async upsert(data) {
         const existing = await this.findByAnilistId(data.anilist_id);
-        
+
         if (existing) {
             await this.update(existing.id, data);
             return existing.id;
-        } else {
-            return await this.create(data);
         }
+
+        // Kalau create() melempar error (mis. schema berbeda / kolom tidak sesuai),
+        // lemparkan ulang agar pengujian/handler bisa melaporkan penyebab sesungguhnya.
+        return await this.create(data);
     }
 
     // === DELETE ===

@@ -1,7 +1,7 @@
 {
   "name": "animacloud-api",
-  "version": "1.0.0",
-  "description": "Anime Information API with AniList Integration - Track, discover, and manage anime data",
+  "version": "2.0.0",
+  "description": "Anime Information API with AniList Integration - Advanced Version",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
@@ -12,109 +12,25 @@
     "sync:popular": "node scripts/sync-popular.js",
     "sync:seasonal": "node scripts/sync-seasonal.js",
     "sync:all": "node scripts/sync-all.js",
+    "sync:v2": "node scripts/sync-v2.js",
     "db:import": "node scripts/import-db.js",
     "db:migrate": "node scripts/migrate.js",
     "db:seed": "node scripts/seed.js",
-    "lint": "eslint src/**/*.js",
-    "format": "prettier --write src/**/*.js",
     "docs": "jsdoc -c jsdoc.json",
-    "clean": "rm -rf node_modules package-lock.json logs/*.log"
+    "format": "prettier --write src/**/*.js"
   },
   "keywords": [
     "anime",
     "api",
     "anilist",
     "graphql",
-    "anime-api",
     "rest-api",
     "animacloud",
-    "anime-database",
-    "anime-tracker"
+    "v2"
   ],
-  "author": {
-    "name": "Your Name",
-    "email": "donyputra1233@gmail.com",
-    "url": "https://github.com/donyputra1233-source"
-  },
+  "author": "Animacloud Team",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/donyputra1233-source/Animacloud-Api.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yourusername/animacloud-api/issues"
-  },
-  "homepage": "https://github.com/yourusername/animacloud-api#readme",
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  },
-  "dependencies": {
-    "axios": "^1.6.2",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "express-rate-limit": "^7.1.5",
-    "helmet": "^7.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "morgan": "^1.10.0",
-    "mysql2": "^3.6.5",
-    "redis": "^4.6.10",
-    "winston": "^3.11.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.55.0",
-    "jest": "^29.7.0",
-    "jsdoc": "^4.0.2",
-    "nodemon": "^3.0.2",
-    "prettier": "^3.1.1",
-    "supertest": "^6.3.3"
-  },
-  "jest": {
-    "testEnvironment": "node",
-    "coveragePathIgnorePatterns": [
-      "/node_modules/"
-    ],
-    "testMatch": [
-      "**/tests/**/*.test.js"
-    ]
-  },
-  "eslintConfig": {
-    "env": {
-      "node": true,
-      "es2021": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-      "ecmaVersion": "latest",
-      "sourceType": "module"
-    },
-    "rules": {
-      "no-unused-vars": "warn",
-      "no-console": "off"
-    }
-  },
-  "prettier": {
-    "semi": true,
-    "singleQuote": true,
-    "tabWidth": 4,
-    "printWidth": 100,
-    "trailingComma": "es5"
-  },
-  "nodemonConfig": {
-    "watch": [
-      "src"
-    ],
-    "ext": "js,json",
-    "ignore": [
-      "node_modules",
-      "logs",
-      "tests"
-    ],
-    "delay": 1000,
-    "env": {
-      "NODE_ENV": "development"
-    }
+    "node": ">=16.0.0"
   }
 }
