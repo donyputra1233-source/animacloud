@@ -3,7 +3,9 @@ Animacloud-API adalah REST API untuk informasi Anime dari informasi detail, jadw
 
 > Saat ini API ini sedang dalam Perkembangan, mungkin ini agak lama tapi akan segera diselesaikan secepat mungkin dan juga server ini belum stabil untuk saat ini
 
-Link: https://animacloud2.serveousercontent.com
+> Informasi: API sedang dalam kondisi hiatus dan sedang dalam pemulihan Server jadi harap pantau terus di salurabn pada bagian  **saluran**
+
+Link: https://animacloud2.serveousercontent.com *Expired*
 
 ![Node.js](https://img.shields.io/badge/Node.js-18.x-green)
 ![Express](https://img.shields.io/badge/Express-4.x-blue)
